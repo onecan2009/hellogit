@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void swap (system1 &a, int& b, int & c, int& d)
+void swap (int &a, int& b)
 {
     int temp;
     temp = a;
