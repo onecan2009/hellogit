@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<user-config>
+	<general>
+		<presence>
+			<autoaway enabled="1" wait="8" autoack="0"/>
+			<fullscreen autodnd="1"/>
+		</presence>
+		<exit confirm="0"/>
+		<minipage show="1"/>
+		<channel show="1"/>
+	</general>
+	<main-win>
+		<panel>
+			<roster curr="org">
+				<pri-tag name="online" show="1"/>
+				<pri-tag name="org" show="1"/>
+				<pri-tag name="buddy" show="1"/>
+				<pri-tag name="group" show="1"/>
+				<pri-tag name="last" show="1" curr="contact">
+					<sub-tag name="contact" show="1" expand="1"/>
+					<sub-tag name="muc" show="1" expand="1"/>
+				</pri-tag>
+			</roster>
+		</panel>
+		<user-tools>
+			<item id="webLogin" show="1"/>
+			<item id="webmail" show="1"/>
+			<item id="ftmanage" show="1"/>
+			<item id="msgcenter" show="1"/>
+			<item id="fileshare" show="1"/>
+			<item id="new_sms" show="0"/>
+			<item id="helper" show="1"/>
+			<item id="new_multimsg" show="1"/>
+			<item id="new_muc" show="1"/>
+			<item id="mixcolor" show="1"/>
+			<item id="new_worklog" show="0"/>
+			<item id="new_tdlist" show="0"/>
+			<item id="new_ft" show="0"/>
+		</user-tools>
+		<user online-filter="0"/>
+		<org mode="dept" other-title="1" empty-node="1"/>
+		<buddy mode="user"/>
+		<mix_color type="1" color="ffffff" image_number=""/>
+		<view_type type="0"/>
+		<unshow type="1"/>
+	</main-win>
+	<notify>
+		<all-type expand="1" tray="1" icon="1" sound="1">
+		<online tray="0" icon="0" sound="0"/>
+		<msg expand="0" tray="1" icon="1" sound="0">
+			<chat tray="1" icon="0" sound="1"/>
+			<multi tray="1" icon="1" sound="1"/>
+		</msg>
+		<ft expand="0" tray="1" icon="1" sound="0">
+			<ftsend tray="1" icon="0" sound="1"/>
+			<ftrecv tray="1" icon="0" sound="1"/>
+			<ftfeedback tray="0" icon="0" sound="0"/>
+		</ft>
+		<event expand="0" tray="1" icon="1" sound="0">
+			<weibo tray="1" icon="1" sound="1"/>
+			<mainline tray="1" icon="1" sound="1"/>
+			<asgmt tray="1" icon="1" sound="1"/>
+			<discuss tray="1" icon="1" sound="1"/>
+			<info tray="1" icon="1" sound="1"/>
+			<task tray="1" icon="1" sound="1"/>
+			<filecab tray="1" icon="1" sound="1"/>
+			<memo tray="1" icon="1" sound="1"/>
+			<client tray="1" icon="1" sound="1"/>
+			<auditing tray="1" icon="1" sound="1"/>
+			<myplan tray="1" icon="1" sound="1"/>
+			<logcomment tray="1" icon="1" sound="1"/>
+			<telex tray="1" icon="1" sound="1"/>
+			<zfdoc tray="1" icon="1" sound="1"/>
+			<calendar tray="1" icon="1" sound="1"/>
+		</event>
+		<sms expand="0" tray="1" icon="1" sound="0">
+			<smssend tray="1" icon="0" sound="1"/>
+			<smsrecv tray="1" icon="1" sound="1"/>
+		</sms>
+		<mail tray="1" icon="1" sound="1"/>
+		</all-type>
+	</notify>
+	<chat-win>
+		<show mode="tab" dialog="chat"/>
+		<send key="1"/>
+		<peer-font enabled="1"/>
+		<chat-history auto="0"/>
+		<screen-snap hidden="1"/>
+		<event enabled="1"/>
+		<font>
+			<mask>-402653169</mask>
+			<effect>0</effect>
+			<pitch>2</pitch>
+			<charset>1</charset>
+			<crtext>0</crtext>
+			<height>210</height>
+			<facename>宋体</facename>
+		</font>
+	</chat-win>
+	<ft>
+		<job>
+			<save enabled="1" period="7"/>
+			<start login="0"/>
+			<delete logoff="1"/>
+			<retry enabled="0" wait="5" num="10"/>
+		</job>
+		<receive>
+			<autorecv enabled="0"/>
+			<path>D:\My Documents\Jingoal\wfeng@8375576\RecvFiles</path>
+		</receive>
+		<send>
+			<defaultdirect enabled="0" tipsendfiletype="1"/>
+		</send>
+		<position curr="recent"/>
+	</ft>
+	<media>
+		<audio>
+			<input enabled="1" default="1">0</input>
+			<output enabled="1" default="1">0</output>
+		</audio>
+		<video enabled="1" default="1">0</video>
+	</media>
+	<info-center>
+		<roster user-stopped="0" roam-message="1" buddy-none="0"/>
+		<event show-history="0"/>
+		<position curr="chat"/>
+		<sms sign-notify="0"/>
+	</info-center>
+	<web>
+		<login mode="security" setup-win="0"/>
+	</web>
+	<buddy>
+		<show-option user-owner-corp="0" corp-node="1" name-type="1"/>
+	</buddy>
+	<helper>
+		<position channel="home"/>
+		<worklog>
+			<awake enabled="1"/>
+		</worklog>
+		<attend_card>
+			<in_awake enabled="1"/>
+			<out_awake enabled="0"/>
+		</attend_card>
+	</helper>
+	<fs>
+		<tips show="1"/>
+		<share_file_user show="1"/>
+		<position curr="other_share"/>
+	</fs>
+</user-config>
